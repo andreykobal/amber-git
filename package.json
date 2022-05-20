@@ -46,6 +46,7 @@
     "react": ">=18.0",
     "react-dom": ">=18.0",
     "react-router-dom": "6",
+    "react-unity-webgl": "^8.8.0",
     "regenerator-runtime": "~0.13.5",
     "three": ">=0.137"
   },

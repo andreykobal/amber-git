@@ -8,6 +8,15 @@ import Header from './components/Header'
 import getConfig from './config'
 const { networkId } = getConfig(process.env.NODE_ENV || 'development')
 
+import Unity, { UnityContext } from "react-unity-webgl";
+
+const unityContext = new UnityContext({
+  loaderUrl: "build/myunityapp.loader.js",
+  dataUrl: "build/myunityapp.data",
+  frameworkUrl: "build/myunityapp.framework.js",
+  codeUrl: "build/myunityapp.wasm",
+});
+
 export default function App() {
   // use React Hooks to store greeting in component state
   const [greeting, set_greeting] = React.useState()
@@ -52,7 +61,10 @@ export default function App() {
   return (
     // use React Fragment, <>, to avoid wrapping elements in unnecessary divs
     <>
-
+    <div className="max-w-full">
+    <Header/>
+    <Unity className="relative min-h-screen min-w-full max-w-full" unityContext={unityContext} devicePixelRatio={1}/>
+    </div>
       <button className="link" style={{ float: 'right' }} onClick={logout}>
         Sign out
       </button>

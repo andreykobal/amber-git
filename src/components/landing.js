@@ -398,7 +398,7 @@ export default function Landing() {
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-gray-400">&copy; 2020 Workflow, Inc. All rights reserved.</p>
+          <p className="text-center text-base text-gray-400">&copy; 2022 HustleStacks OU. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -48,7 +48,7 @@ export default function Header() {
     <div className="relative pt-2 pb-2 sm:pb-2">
       <Popover>
         <nav
-          className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
+          className="relative max-w-full mx-auto flex items-center justify-between px-4 sm:px-6"
           aria-label="Global"
         >
           <div className="flex items-center flex-1">
