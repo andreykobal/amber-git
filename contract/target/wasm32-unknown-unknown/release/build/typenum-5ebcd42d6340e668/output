@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/admin/Downloads/happy-amber-dev-master/contract/target/wasm32-unknown-unknown/release/build/typenum-5ebcd42d6340e668/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/admin/Downloads/happy-amber-dev-master/contract/target/wasm32-unknown-unknown/release/build/typenum-5ebcd42d6340e668/out/op.rs
