@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "rustup target add wasm32-unknown-unknown && yarn add shelljs && npm run build:contract && npm run build:web",
+    "build": "rustup target add wasm32-unknown-unknown && npm run build:contract && npm run build:web",
     "build:contract": "node contract/compile.js",
     "build:contract:debug": "node contract/compile.js --debug",
     "build:web": "parcel build src/index.html --public-url ./",
@@ -31,7 +31,6 @@
     "parcel-bundler": "~1.12.4",
     "postcss": "^7.0.39",
     "react-test-renderer": "~17.0.1",
-    "shelljs": "~0.8.4",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
   "dependencies": {
@@ -48,7 +47,8 @@
     "react-router-dom": "6",
     "react-unity-webgl": "^8.8.0",
     "regenerator-runtime": "~0.13.5",
-    "three": ">=0.137"
+    "three": ">=0.137",
+    "shelljs": "~0.8.4"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
