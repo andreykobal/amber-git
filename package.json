@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "rustup target add wasm32-unknown-unknown && npm run build:contract && npm run build:web",
+    "build": "rustup target add wasm32-unknown-unknown && npm install -g shelljs && npm run build:contract && npm run build:web",
     "build:contract": "node contract/compile.js",
     "build:contract:debug": "node contract/compile.js --debug",
     "build:web": "parcel build src/index.html --public-url ./",
