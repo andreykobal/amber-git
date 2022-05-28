@@ -151,30 +151,30 @@ export default function Landing() {
                     <span className="text-blue-400 md:block">and start to live in the metaverse</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                    amet fugiat veniam occaecat fugiat aliqua ad ad non deserunt sunt.
+AMBER is an open-source platform for virtual worlds that allows users to directly own their virtual property:  
+character appearance, clothing, weapons, vehicles, land, and real estate. Digital assets, that are NFTs, can be bought, exchanged, sold, staked and used in virtual worlds.
                   </p>
-                  <p className="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10">Used by</p>
+                  <p className="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10">Powered by</p>
                   <div className="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                     <div className="flex flex-wrap items-start justify-between">
                       <div className="flex justify-center px-1">
                         <img
                           className="h-9 sm:h-10"
-                          src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-                          alt="Tuple"
+                          src="https://itforeveryone.org/wp-content/uploads/2022/05/near.png"
+                          alt="Near"
                         />
                       </div>
                       <div className="flex justify-center px-1">
                         <img
                           className="h-9 sm:h-10"
-                          src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
-                          alt="Workcation"
+                          src="https://itforeveryone.org/wp-content/uploads/2022/05/Human.png"
+                          alt="Human Guild"
                         />
                       </div>
                       <div className="flex justify-center px-1">
                         <img
                           className="h-9 sm:h-10"
-                          src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
+                          src="https://itforeveryone.org/wp-content/uploads/2022/05/Mintbase.png"
                           alt="StaticKit"
                         />
                       </div>
@@ -268,28 +268,82 @@ export default function Landing() {
     </div>
     {/*LOGO CLOUD */}
     <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
           <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+            <img className="h-12" src="https://itforeveryone.org/wp-content/uploads/2022/05/near.png" alt="Tuple" />
           </div>
           <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+            <img className="h-12" src="https://itforeveryone.org/wp-content/uploads/2022/05/Human.png" alt="Mirage" />
           </div>
           <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img className="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit" />
+            <img className="h-12" src="https://itforeveryone.org/wp-content/uploads/2022/05/Mintbase.png" alt="StaticKit" />
           </div>
           <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
             <img
               className="h-12"
-              src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
+              src="https://itforeveryone.org/wp-content/uploads/2022/05/paras.png"
               alt="Transistor"
             />
           </div>
           <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
             <img
               className="h-12"
-              src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
+              src="https://itforeveryone.org/wp-content/uploads/2022/05/roketo.png"
+              alt="Workcation"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img className="h-12" src="https://itforeveryone.org/wp-content/uploads/2022/05/vadra.png" alt="Tuple" />
+          </div>
+          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img className="h-12" src="https://itforeveryone.org/wp-content/uploads/2022/05/manimama.png" alt="Mirage" />
+          </div>
+          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img className="h-12" src="https://itforeveryone.org/wp-content/uploads/2022/05/datality.png" alt="StaticKit" />
+          </div>
+          <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+            <img
+              className="h-12"
+              src="https://itforeveryone.org/wp-content/uploads/2022/05/meta.png"
+              alt="Transistor"
+            />
+          </div>
+          <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
+            <img
+              className="h-12"
+              src="https://itforeveryone.org/wp-content/uploads/2022/05/npunks.png"
+              alt="Workcation"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img className="h-12" src="https://itforeveryone.org/wp-content/uploads/2022/05/ape.png" alt="Tuple" />
+          </div>
+          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img className="h-12" src="https://itforeveryone.org/wp-content/uploads/2022/05/tenk.png" alt="Mirage" />
+          </div>
+          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img className="h-12" src="https://itforeveryone.org/wp-content/uploads/2022/05/waka.png" alt="StaticKit" />
+          </div>
+          <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+            <img
+              className="h-12"
+              src="https://itforeveryone.org/wp-content/uploads/2022/05/tank.png"
+              alt="Transistor"
+            />
+          </div>
+          <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
+            <img
+              className="h-12"
+              src="https://itforeveryone.org/wp-content/uploads/2022/05/guildx.png"
               alt="Workcation"
             />
           </div>
