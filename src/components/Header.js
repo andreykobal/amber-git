@@ -15,36 +15,13 @@ import { login, logout } from './../utils'
 const navigation = [
   { name: 'Whitepaper', href: 'whitepaper' },
   { name: 'Tokenomics', href: 'tokenomics' },
-  { name: 'Marketplace', href: 'tokenomics' },
-  { name: 'Contact Us', href: 'tokenomics' },
+  { name: 'Marketplace', href: '/' },
+  { name: 'Contact Us', href: '/' },
 ]
 
 export default function Header() {
   return (
-    <div className="relative bg-gray-800 overflow-hidden">
-    <div className="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
-      <svg
-        className="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-gray-700 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0"
-        width={364}
-        height={384}
-        viewBox="0 0 364 384"
-        fill="none"
-      >
-        <defs>
-          <pattern
-            id="eab71dd9-9d7a-47bd-8044-256344ee00d0"
-            x={0}
-            y={0}
-            width={20}
-            height={20}
-            patternUnits="userSpaceOnUse"
-          >
-            <rect x={0} y={0} width={4} height={4} fill="currentColor" />
-          </pattern>
-        </defs>
-        <rect width={364} height={384} fill="url(#eab71dd9-9d7a-47bd-8044-256344ee00d0)" />
-      </svg>
-    </div>
+    <div className="bg-gray-800">
     <div className="relative pt-2 pb-2 sm:pb-2">
       <Popover>
         <nav

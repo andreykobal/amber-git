@@ -6,9 +6,8 @@ export default function Tokenomics() {
     return (
         <>
         <Header/>
-      <main style={{ padding: "1rem 0" }}>
-        <h2>Tokenomics</h2>
-        <iframe className='w-full min-h-screen' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTluHyM4978mHAEXEOOSTgfR6zfuqjpbDapAwyN9zpQ_4x_UYRgxbYS4v8gyR_QLTAQxtR0krBTTtHQ/pubhtml?widget=true&amp;headers=false"></iframe>      </main>
+        <h2> Tokenomics</h2>
+        <iframe className='w-full  min-h-screen' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTluHyM4978mHAEXEOOSTgfR6zfuqjpbDapAwyN9zpQ_4x_UYRgxbYS4v8gyR_QLTAQxtR0krBTTtHQ/pubhtml?widget=true&amp;headers=false"></iframe>      
       </>
     );
   }
