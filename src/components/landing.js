@@ -105,7 +105,7 @@ export default function Landing() {
   return (
       <>
     {/* hero */}
-    <div className="relative bg-gray-800 overflow-hidden">
+    <div className="relative bg-gradient-to-r from-purple-800 to-pink-800 overflow-hidden">
       <div className="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
         <svg
           className="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-gray-700 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0"
@@ -148,7 +148,7 @@ export default function Landing() {
                   </a>
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
                     <span className="md:block">Mint your NFT avatar</span>{' '}
-                    <span className="text-blue-400 md:block">and start to live in the metaverse</span>
+                    <span className="text-blue-300 md:block">and start to live in the metaverse</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
 AMBER is an open-source platform for virtual worlds that allows users to directly own their virtual property:  
@@ -248,11 +248,11 @@ character appearance, clothing, weapons, vehicles, land, and real estate. Digita
       </div>
     </div>
     {/* CTA 2 */}
-    <div className="bg-blue-50">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
+    <div className="bg-gradient-to-r from-purple-800 to-pink-800">
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-48 lg:px-8 lg:flex lg:items-center lg:justify-between">
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
-          <span className="block">What's next?</span>
-          <span className="block text-blue-600">Enter the metaverse with your avatar</span>
+          <span className="block text-white">What's next?</span>
+          <span className="block text-blue-300">Enter the metaverse with your avatar</span>
         </h2>
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div className="inline-flex rounded-md shadow">

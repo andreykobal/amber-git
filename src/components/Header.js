@@ -21,7 +21,7 @@ const navigation = [
 
 export default function Header() {
   return (
-    <div className="bg-gray-800">
+    <div className="bg-gradient-to-r from-purple-800 to-pink-800">
     <div className="relative pt-2 pb-2 sm:pb-2">
       <Popover>
         <nav
@@ -39,7 +39,7 @@ export default function Header() {
                 />
               </Link>
               <div className="-mr-2 flex items-center md:hidden">
-                <Popover.Button className="bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+                <Popover.Button className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
@@ -56,7 +56,7 @@ export default function Header() {
           <div className="hidden md:flex">
             <a
               onClick={login}
-              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
             >
               Sign in with NEAR
             </a>
