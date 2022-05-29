@@ -147,8 +147,8 @@ export default function Landing() {
                     <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
                   </a>
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
-                    <span className="md:block">Mint your NFT avatar</span>{' '}
-                    <span className="text-blue-300 md:block">and start to live in the metaverse</span>
+                    <span className="md:block">Mint your NFT avatar and start to live in the </span>{' '}
+                    <span className="text-yellow-400 md:block">AMBER metaverse</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
 AMBER is an open-source platform for virtual worlds that allows users to directly own their virtual property:  
@@ -160,21 +160,21 @@ character appearance, clothing, weapons, vehicles, land, and real estate. Digita
                       <div className="flex justify-center px-1">
                         <img
                           className="h-9 sm:h-10"
-                          src="https://itforeveryone.org/wp-content/uploads/2022/05/near.png"
+                          src="https://itforeveryone.org/wp-content/uploads/2022/05/near-1.png"
                           alt="Near"
                         />
                       </div>
                       <div className="flex justify-center px-1">
                         <img
                           className="h-9 sm:h-10"
-                          src="https://itforeveryone.org/wp-content/uploads/2022/05/Human.png"
+                          src="https://itforeveryone.org/wp-content/uploads/2022/05/near-2.png"
                           alt="Human Guild"
                         />
                       </div>
                       <div className="flex justify-center px-1">
                         <img
                           className="h-9 sm:h-10"
-                          src="https://itforeveryone.org/wp-content/uploads/2022/05/Mintbase.png"
+                          src="https://itforeveryone.org/wp-content/uploads/2022/05/near-3.png"
                           alt="StaticKit"
                         />
                       </div>
@@ -198,6 +198,15 @@ character appearance, clothing, weapons, vehicles, land, and real estate. Digita
                           >
                             Mint Avatar
                           </button>
+                          <a href="https://testflight.apple.com/join/KHYIS8no">
+                          <button
+                            type=""
+                            className="w-full mt-4 mb-2 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-black hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                          >
+                           <img className="w-4 mr-2" src="https://itforeveryone.org/wp-content/uploads/2022/05/pngkey.com-ibooks-logo-png-2757097.png"></img> Download on the TestFlight
+                          </button>
+                          </a>
+                          
                     <p className="text-xs leading-5 text-gray-500">
                       By signing up, you agree to our{' '}
                       <a href="#" className="font-medium text-gray-900 hover:underline">
@@ -248,11 +257,11 @@ character appearance, clothing, weapons, vehicles, land, and real estate. Digita
       </div>
     </div>
     {/* CTA 2 */}
-    <div className="bg-gradient-to-r from-purple-800 to-pink-800">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-48 lg:px-8 lg:flex lg:items-center lg:justify-between">
+    <div class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+      <div className="z-30 max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-48 lg:px-8 lg:flex lg:items-center lg:justify-between">
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
           <span className="block text-white">What's next?</span>
-          <span className="block text-blue-300">Enter the metaverse with your avatar</span>
+          <span className="block text-yellow-400">Enter the metaverse with your avatar</span>
         </h2>
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div className="inline-flex rounded-md shadow">
@@ -265,6 +274,23 @@ character appearance, clothing, weapons, vehicles, land, and real estate. Digita
           </div>
         </div>
       </div>
+  <video
+    autoPlay
+    loop
+    muted
+    className="absolute z-10 w-auto min-w-full min-h-[50%] max-w-none"
+  >
+    <source
+      src="https://itforeveryone.org/wp-content/uploads/2022/05/IMG_5185.mp4"
+      type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+    <div className="bg-gradient-to-r from-purple-800 to-pink-800">
+
     </div>
     {/*LOGO CLOUD */}
     <div className="bg-white">
@@ -316,7 +342,7 @@ character appearance, clothing, weapons, vehicles, land, and real estate. Digita
           <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
             <img
               className="h-12"
-              src="https://itforeveryone.org/wp-content/uploads/2022/05/npunks.png"
+              src="https://itforeveryone.org/wp-content/uploads/2022/05/npunks-1.png"
               alt="Workcation"
             />
           </div>
