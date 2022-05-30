@@ -7,7 +7,8 @@ export default function Tokenomics() {
         <>
         <Header/>
         <h2> Tokenomics</h2>
-        <iframe className='w-full  min-h-screen' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTluHyM4978mHAEXEOOSTgfR6zfuqjpbDapAwyN9zpQ_4x_UYRgxbYS4v8gyR_QLTAQxtR0krBTTtHQ/pubhtml?widget=true&amp;headers=false"></iframe>      
+        <iframe className='w-full min-h-screen overflow-hidden overscroll-none	' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRd0cxHsJ8CTlxr2_EvmDpX46qhc7OcNB5iaru874LhwB0Pg0i6jl8A6NmpIo85WnIUUW-n9BaSdjU/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <iframe className='w-full min-h-screen overflow-hidden overscroll-none	' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRd0cxHsJ8CTlxr2_EvmDpX46qhc7OcNB5iaru874LhwB0Pg0i6jl8A6NmpIo85WnIUUW-n9BaSdjU/pubhtml?gid=757035930&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
       </>
     );
   }
