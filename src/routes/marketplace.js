@@ -22,20 +22,20 @@ import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { MenuIcon, QuestionMarkCircleIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/outline'
 
-const currencies = ['CAD', 'USD', 'AUD', 'EUR', 'GBP']
+const currencies = ['NEAR', 'AMBER', 'USDN', 'AURORA']
 const navigation = {
   categories: [
     {
-      name: 'Women',
+      name: 'Appearance',
       featured: [
         {
-          name: 'New Arrivals',
+          name: 'Characters',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
           imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
         {
-          name: 'Basic Tees',
+          name: 'Clothing',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
           imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
@@ -55,7 +55,7 @@ const navigation = {
       ],
     },
     {
-      name: 'Men',
+      name: 'Weapons',
       featured: [
         {
           name: 'New Arrivals',
@@ -86,8 +86,9 @@ const navigation = {
     },
   ],
   pages: [
-    { name: 'Company', href: '#' },
-    { name: 'Stores', href: '#' },
+    { name: 'Vehicles', href: '#' },
+    { name: 'Real Estate', href: '#' },
+    { name: 'Land', href: '#' },
   ],
 }
 const categories = [
@@ -272,7 +273,7 @@ export default function Marketplace() {
                 </div>
                 <div className="flow-root">
                   <a href="#" className="-m-2 p-2 block font-medium text-gray-900">
-                    Sign in
+                    Sign in with NEAR
                   </a>
                 </div>
               </div>
@@ -377,11 +378,11 @@ export default function Marketplace() {
 
                 <div className="flex items-center space-x-6">
                   <a href="#" className="text-sm font-medium text-white hover:text-gray-100">
-                    Sign in
+                    Sign in with NEAR
                   </a>
-                  <a href="#" className="text-sm font-medium text-white hover:text-gray-100">
+                  {/* <a href="#" className="text-sm font-medium text-white hover:text-gray-100">
                     Create an account
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -397,7 +398,7 @@ export default function Marketplace() {
                         <span className="sr-only">Workflow</span>
                         <img
                           className="h-8 w-auto"
-                          src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white"
+                          src="https://itforeveryone.org/wp-content/uploads/2022/06/9h49uyvTW0q4zzRsbLdId.png"
                           alt=""
                         />
                       </a>
@@ -499,7 +500,7 @@ export default function Marketplace() {
                     <a href="#" className="lg:hidden">
                       <span className="sr-only">Workflow</span>
                       <img
-                        src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white"
+                        src="https://itforeveryone.org/wp-content/uploads/2022/06/9h49uyvTW0q4zzRsbLdId.png"
                         alt=""
                         className="h-8 w-auto"
                       />
