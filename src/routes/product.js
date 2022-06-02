@@ -228,7 +228,7 @@ const navigation = {
   ],
 }
 const product = {
-  name: 'Zip Tote Basket',
+  name: 'Playable NFT character',
   price: '$140',
   rating: 4,
   images: [
