@@ -15,7 +15,7 @@ import { login, logout } from './../utils'
 const navigation = [
   { name: 'Whitepaper', href: 'whitepaper' },
   { name: 'Tokenomics', href: 'tokenomics' },
-  { name: 'Marketplace', href: '/' },
+  { name: 'Marketplace', href: 'marketplace' },
   { name: 'Contact Us', href: '/' },
 ]
 

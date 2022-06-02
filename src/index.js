@@ -9,6 +9,7 @@ import {
 import App from './App'
 import Whitepaper from "./routes/whitepaper";
 import Tokenomics from "./routes/tokenomics";
+import Marketplace from "./routes/marketplace";
 
 
 import { initContract } from './utils'
@@ -21,6 +22,7 @@ window.nearInitPromise = initContract()
       <Route path="/" element={<App />} />
       <Route path="whitepaper" element={<Whitepaper />} />
       <Route path="tokenomics" element={<Tokenomics />} />
+      <Route path="marketplace" element={<Marketplace />} />
     </Routes>
     </BrowserRouter>,
       document.querySelector('#root')
