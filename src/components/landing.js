@@ -151,8 +151,8 @@ export default function Landing() {
                     <span className="text-yellow-400 md:block">AMBER metaverse</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-AMBER is an open-source platform for virtual worlds that allows users to directly own their virtual property:  
-character appearance, clothing, weapons, vehicles, land, and real estate. Digital assets, that are NFTs, can be bought, exchanged, sold, staked and used in virtual worlds.
+AMBER is an NEAR blockchain-powered game that allows users to directly own their virtual property:  
+character appearance, clothing, weapons, vehicles, land, and real estate. Digital assets, that are NFTs, can be bought, exchanged, sold, staked and used in the metaverse.
                   </p>
                   <p className="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10">Powered by</p>
                   <div className="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">

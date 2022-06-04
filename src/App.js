@@ -4,6 +4,7 @@ import { login, logout } from './utils'
 import './global.css'
 import Landing from './components/landing'
 import Header from './components/Header'
+import Dashboard from './components/Dashboard'
 
 import getConfig from './config'
 const { networkId } = getConfig(process.env.NODE_ENV || 'development')
@@ -64,6 +65,7 @@ export default function App() {
     <div className="max-w-full">
     <Header/>
     <Unity className="relative min-h-screen min-w-full max-w-full" unityContext={unityContext} devicePixelRatio={1}/>
+    <Dashboard/>
     </div>
       <button className="link" style={{ float: 'right' }} onClick={logout}>
         Sign out
